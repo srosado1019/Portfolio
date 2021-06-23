@@ -1,0 +1,44 @@
+body,
+html {
+    background: url(backgroundimage.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.animate__animated.animate__zoomInDown {
+    --animate-duration: 2s;
+  }
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5em;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+}
+
+.d-flex {
+    height: 100%;
+    width: 100%;
+}
+
+.btn-primary {
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+}
+
+.btn-primary:hover {
+    background-color: rgb(35, 0, 44);
+    transform: scale(1.025);
+}

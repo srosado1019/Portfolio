@@ -1,0 +1,63 @@
+body,
+html {
+	margin: 0px;
+    background: url(backgroundimage.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	-moz-box-shadow:4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-o-box-shadow: 4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+}
+
+img {
+	width: 563px;
+	height: 375px;
+	transition: all 1s;
+    border-radius: 5px 5px 0 0;
+    margin: 10px;
+   
+}
+
+img:hover {
+	transform: scale(1.025);
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .25);
+}
+
+.img-desc {
+    background-color: white;
+    padding:15px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    width: 563px;
+    border-radius: 0 0 5px 5px;
+    margin: -10px 10px 10px 10px;
+    color: #474747;
+}
+
+p {
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
